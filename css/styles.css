@@ -1,0 +1,205 @@
+/* TYPE SELECTORS */
+* {
+    box-sizing: border-box;
+}
+ 
+h1,
+h2,
+h3 {
+    text-align: center;
+    line-height: 1.5;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+h1 {
+    padding-top: 10px;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+p {
+    text-align: center;
+    line-height: 1.5;
+    margin: 10px;
+    font-size: 1em;
+} 
+
+
+body {
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+} 
+
+a:hover {
+    background-color: #f2f2f2;
+    
+} 
+
+/* Header Format */
+ .intro,
+#FOOTER {
+    background: #f2f2f2;
+    overflow: auto;
+    text-align: center;
+    height: auto;
+    padding-bottom: 25px;
+}
+
+.nav-bar li {
+    background: white;
+    display: block;
+    text-transform: uppercase;
+    margin: 5px 5px;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 7px 0;
+    font-weight: bold;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+} 
+
+ .intro img {
+    display: block;
+    width : 75%;
+    margin: auto;
+    padding: 20px 0;
+    
+}
+
+
+/* Main Content*/
+ 
+.Content-Pages img {
+    display: block;
+    width: 85%;
+    margin: auto;
+    
+}
+
+.bkgd {
+    background: #f2f2f2;
+}
+.Content-Pages p {
+    width: 73%;
+    margin: auto;
+    margin-bottom: 30px;
+
+
+} 
+
+/* FOOTER */
+
+#FOOTER p {
+    padding: 0 10px;
+}
+
+.contact-footer {
+    line-height: 2.5;
+    margin-bottom: 40px;
+
+}
+
+.link {
+    margin-left: 20px;
+    margin-right: 20px;
+    border-top: black solid 2px;
+    font-size: .75em;
+    text-align: center;
+    
+}
+
+.link1 {
+    float: left;
+    text-transform: uppercase;
+}
+
+.link2 li {
+    text-decoration: none;
+    list-style: none;
+    float: right;
+    padding: 0 10px;
+    
+}
+
+.link1,
+.link2 li {
+    text-align: center;
+    margin-top: 30px;
+}
+/*MEDIA QUERIES*/
+
+@media (min-width:768px) {
+    h1 {
+        font-size: 3em;
+    }
+    h2 {
+        font-size: 2em;
+    }
+    
+    .nav-bar li,
+    .nav-bar
+    {
+        display: inline-block;  
+        background-color: transparent;  
+        margin: auto;
+        padding: 15px;
+    }
+
+    .intro img {
+        float: right;
+        width: 40%;
+        padding: 0 15px;
+    }
+
+    .intro-p {
+        padding: 37px 15px;
+    }
+    
+    .Content-Pages {
+        float: left;
+        width: 50%;
+    }
+
+    .Content-Pages p {
+        height: 75px;
+    }
+
+
+/*---- Float clearfix ---- */
+
+     .clearfix::after {
+        content: " ";
+        display: table;
+        clear: both;
+    }
+} 
+@media (min-width:1024px) {
+
+.Content-Pages {
+    float: left;
+    width: 33.333%;
+}
+
+/*---- Float clearfix ---- */
+
+ .clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+} 
