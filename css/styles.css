@@ -56,6 +56,14 @@ a:hover {
     padding-bottom: 25px;
 }
 
+
+.intro {
+    border-bottom: dotted black 1px;
+}
+
+#FOOTER {
+    border-top: dotted black 1px;
+}
 .nav-bar li {
     background: white;
     display: block;
@@ -88,12 +96,11 @@ li a {
     display: block;
     width: 85%;
     margin: auto;
+    margin-top:30px;
     
 }
 
-.bkgd {
-    background: #f2f2f2;
-}
+
 .Content-Pages p {
     width: 73%;
     margin: auto;
@@ -101,6 +108,12 @@ li a {
 
 
 } 
+
+
+.Content-Pages {
+    background-color: #f2f2f2;
+    border: dotted black 1px;
+}
 
 /* FOOTER */
 
@@ -114,6 +127,10 @@ li a {
 
 }
 
+#none {
+    text-decoration: none;
+    color: black;
+}
 .link {
     margin-left: 20px;
     margin-right: 20px;
@@ -140,6 +157,12 @@ li a {
 .link2 li {
     text-align: center;
     margin-top: 30px;
+}
+
+.Content-Pages:hover {
+background: black;
+color: white;
+
 }
 /*MEDIA QUERIES*/
 
